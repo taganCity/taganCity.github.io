@@ -1,0 +1,121 @@
+body 
+{
+    background-color: #5E6230; 
+    background: url(back3.jpg) no-repeat;
+    background-position: center center;
+    background-attachment: fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    min-height: 97vh;
+}
+main{
+    flex-grow: 1;
+}
+.container {
+    width: 1400px;
+    margin: auto;
+    display: flex;
+    max-width: 100%;
+}
+.lefth{
+    width: 50%;
+}
+.lefth  h1{
+    margin: 0px;
+    display: flex;
+}
+.left_header_name{
+    margin: 0px;
+    padding-right: 10px;
+    font-family: Raleway;
+    font-style:normal;
+    font-weight:normal;
+    line-height: 100.4%;
+    letter-spacing: 0.185em;
+    border-right: 2px black solid;
+}
+.left_header_page{
+    font-family: Cardo;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 25px;
+    margin-top: 15px;
+    font-weight: 400;
+    padding-left: 10px;
+    display: block;
+    letter-spacing: 0.265em;
+}
+.righth{
+    margin-top: 15px;
+    width: 50%;
+    display: flex;
+    justify-content: flex-end;
+}
+
+.header-menu{
+    font-family: Monda;
+    font-size: 1.2rem;
+    line-height: 92.4%;
+    text-align: center;
+    letter-spacing: 0.rem;
+    padding: 0px;
+    margin: 0px;
+    display: flex;
+    list-style: none;
+    letter-spacing: 0.265em;
+}
+
+.header-menu li {
+    margin-left: 40px;
+}
+.header-menu li a{
+    color: white;
+    text-decoration: none;
+}
+.header-menu li a:hover{
+    color: black;
+    transition: color .45s ease-in-out;
+}
+footer{
+    width: 100%;
+    height: 20px;
+}
+.text{
+    padding-top: 8%;
+    margin: auto;
+    height: auto;
+    max-width: 100%;
+    font-family: "Cardo";
+font-style: normal;
+font-weight: normal;
+font-size: 26px;
+line-height: 167.4%;
+text-align: center;
+letter-spacing: 0.265em;
+}
+
+.text h1{
+    font-family: "Cardo";
+    font-style: normal;
+    font-weight: normal;
+}
+
+.is{
+    text-align: center;
+    font-family: "Cardo";
+font-style: normal;
+font-weight: normal;
+}
+
+.foot{
+    max-width: 100%;
+    font-size: 20px;
+line-height: 167.4%;
+text-align: center;
+letter-spacing: 0.265em;
+color: white;
+}

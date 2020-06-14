@@ -1,0 +1,83 @@
+body 
+{
+    background: url(back2.jpg) no-repeat;
+    background-position: center center;
+    background-attachment: fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+
+.main1{
+    padding-top: 15vh;
+    margin: 0 25vw;
+font-family: "Cardo";
+font-style: normal;
+font-weight: normal;
+font-size: 37.8px;
+line-height: 167.4%;
+text-align: center;
+letter-spacing: 0.265em;
+}
+
+main{
+    flex-grow: 1;
+}
+.menu{
+    font-family: Monda;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 1.4rem;
+    line-height: 92.4%;
+    text-align: center;
+    letter-spacing: 0.3rem;
+}
+footer {
+    flex-shrink: 0;
+  }
+  .header1{
+      display: flex;
+  }
+  .menu li {
+      display: inline;
+  }
+  .logo {
+    font-family: Raleway;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 57px;
+    line-height: 92.4%;
+    text-align: center;
+    letter-spacing: 0.2em;
+    margin-top: 2vh;
+  }
+  .page{
+    font-family: Cardo;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 38px;
+    line-height: 100.4%;
+    text-align: center;
+    letter-spacing: 0.185em;
+    margin-top: 2vh;
+  }
+
+  .righth{
+      margin: 0 25rem;
+      display: flex;
+      justify-content: flex-end;
+  }
+  .lefth{
+    display: flex;
+  }
+
+  #rectangle {
+    width: 2px;
+    height: 120px;
+    background: black;
+    margin-right: 1rem;
+}
